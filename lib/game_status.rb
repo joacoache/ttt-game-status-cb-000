@@ -56,7 +56,7 @@ end
 
 def winner?(board)
    WIN_COMBINATIONS.each do |index|
-     if (board[index[0]] == "X" && board[index[1]] == "X" && board[index[2]] == "X") 
+     if (board[index[0]] == "X" && board[index[1]] == "X" && board[index[2]] == "X")
        return "X"
      elsif (board[index[0]] == "O" && board[index[1]] == "O" && board[index[2]] == "O")
        return "O"
