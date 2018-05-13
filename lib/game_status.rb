@@ -65,7 +65,7 @@ def winner(board)
     if win == "X" || win == "O"
       return win
     else
-      return nill
+      return nil
     end
    end
 end
